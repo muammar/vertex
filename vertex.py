@@ -13,7 +13,8 @@ __status__ = "Development"
 
 data=[]
 n=3
-print('Enter your data')
+print('Enter your data in the format:')
+print('valeux1, valuey2')
 for i in range(0,n):
     x = input()
     data.append(x)
